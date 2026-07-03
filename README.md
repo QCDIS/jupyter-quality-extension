@@ -1,3 +1,5 @@
+<img src="./images/BEeS_logo_low_resolution.png" alt="BEeS logo" width="200"/>
+
 # Jupyter Quality Extension
 
 An interactive, lifecycle-aware quality assessment tool for research software developed in Jupyter Notebooks.  
@@ -11,20 +13,26 @@ This tool is designed for research software and helps researchers evaluate noteb
 - Automatically converts `.ipynb` notebooks into `.py` scripts for metric compatibility
 - Modular design for easy extension and maintenance
 
-## Installation
+## Using the Jupyter Quality extension inside NaaVRE
+Learn how to use the Jupyter Quality extension in NaaVRE by pressing "Start workshop" on [the virtual lab detail page](https://beta.naavre.net/vreapp/vl/jupyter-quality).
+
+## Using the Jupyter Quality extension outside NaaVRE
+In case you are using this Jupyter Extension outside NaaVRE, follow the installation instructions.
+
+### Installation
 
 This project was developed and tested with:
 - Python 3.13.2  
 - pip 25.0
 
-### 1. Clone this repository
+#### 1. Clone this repository
 
 ```
 git clone https://github.com/yutong0310/jupyter-quality-extension.git
 cd jupyter-quality-extension
 ```
 
-### 2. Install dependencies
+#### 2. Install dependencies
 
 ```
 pip install -r requirements.txt
